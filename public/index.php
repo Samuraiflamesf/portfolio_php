@@ -30,8 +30,12 @@ if (@$_GET['pag'] == "") {
     <link rel="stylesheet" href="../assets/vendor/bootstrap/bootstrap.min.css">
     <script type="text/javascript" src="../assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="../assets/vendor/bootstrap/jquery-3.6.0.min.js"></script>
+    <!-- Animate Custom -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- Styles Custom -->
     <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/roadmap.css">
+    <link rel="stylesheet" href="../assets/css/game.css">
     <!-- Font Awesome -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <!-- Ícone e Nome do site -->

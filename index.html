@@ -14,12 +14,14 @@
     <link rel="stylesheet" href="../assets/vendor/bootstrap/bootstrap.min.css">
     <script type="text/javascript" src="../assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="../assets/vendor/bootstrap/jquery-3.6.0.min.js"></script>
+    <!-- Animate Custom -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- Styles Custom -->
     <link rel="stylesheet" href="../assets/css/styles.css">
-    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <link rel="stylesheet" href="../assets/css/roadmap.css">
+    <link rel="stylesheet" href="../assets/css/game.css">
     <!-- Font Awesome -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/b04ef94895.js" crossorigin="anonymous"></script>
     <!-- Ícone e Nome do site -->
     <link rel="shortcut icon" href="FlameBox.ico">
 </head>
@@ -84,16 +86,40 @@
                 </div>
             </div>
             <div class="overflow-hidden" style="max-height: 30vh;">
-                <div class="container px-5">
-                    <img src="../assets/img/json.png" class="img-fluid border rounded-3 shadow-lg mb-4"
-                        alt="Example image" width="700" height="500" loading="lazy">
+                <div class="container px-5 m-auto" id="areaGame">
+                    <div class="alert alert-danger d-none" role="alert" id="alertErro">
+                        Aposta invalida!
+                    </div>
+                    <div class="alert alert-primary d-none" role="alert" id="alertSmall">
+                        👀 O número para ser encontrado é MENOR 😰
+                    </div>
+                    <div class="alert alert-primary d-none" role="alert" id="alertBig">
+                        👀 O número para ser encontrado é MAIOR 😨
+                    </div>
+                    <div class="alert alert-success d-none text-center" role="alert" id="alertSuccess">
+                        Parabéns
+                    </div>
+
+                    <div class="card areaGame m-auto">
+                        <div class="card-body m-5 p-2">
+                            <div class="row h2 text-center">
+                                Descobrir o número de <br> 1 a 100 🎲
+                            </div>
+                            <div class="row m-auto mt-3 mb-3 p-3">
+                                <input type="text" class="text-center m-auto " id="bet" placeholder="Digite um número" required>
+                                <div class="row mt-2">
+                                    <button class="btn btn-primary w-50 m-auto " id="btn" onclick="verifyNumber()">Enviar</button>
+                                </div>
+                            </div>
+
+                        </div>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Rodapé -->
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 m-0 border-top bg2">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 m-0 border-top bg2 fixed-bottom">
         <div class="col d-flex align-items-center">
             <span class=" ms-4 text-muted">© 2022 Bernardo Nogueira</span>
         </div>

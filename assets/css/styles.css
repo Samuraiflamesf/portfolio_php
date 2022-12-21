@@ -1,64 +1,79 @@
 @font-face {
-  font-family: fireCodeRegular;
-  src: url(../fonts/FiraCode/FiraCode-VariableFont_wght.ttf);
+    font-family: fireCodeRegular;
+    src: url(../fonts/FiraCode/FiraCode-VariableFont_wght.ttf);
 }
 :root {
-  --py1: #01080e;
-  --py2: #011627;
-  --py3: #011221;
-  --sy1: #607b96;
-  --sy2: #3c9d93;
-  --sy3: #dc3545;
-  --sy4: #ffffff;
-  --sy5: #fea55f;
-  --sy6: #c98bdf;
-  --lines: #0a0a0a;
-  --gradient1: #4d5bce;
-  --gradient2: #43d9ad;
+    --py1: #01080e;
+    --py2: #011627;
+    --py3: #011221;
+    --sy1: #607b96;
+    --sy2: #3c9d93;
+    --sy3: #dc3545;
+    --sy4: #ffffff;
+    --sy5: #fea55f;
+    --sy6: #c98bdf;
+    --lines: #0a0a0a;
+    --gradient1: #4d5bce;
+    --gradient2: #43d9ad;
 }
 
 * {
-  font-family: fireCodeRegular;
+    font-family: fireCodeRegular;
 }
 body {
-  font-family: fireCodeRegular;
-  height: 100vh;
-  background: linear-gradient(
-    -45deg,
+    font-family: fireCodeRegular;
+    height: 100vh;
+    background: linear-gradient(
+        -45deg,
 
-    var(--py1) 0%,
-    var(--py2) 50%,
-    var(--py3) 100%
-  );
-  background-size: 400% 400%;
-  position: relative;
-  animation: animate 7.5s ease-in-out infinite;
+        var(--py1) 0%,
+        var(--py2) 50%,
+        var(--py3) 100%
+    );
+    background-size: 400% 400%;
+    position: relative;
+    animation: animate 7.5s ease-in-out infinite;
 }
 @keyframes animate {
-  0% {
-    background-position: 0 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0 50%;
-  }
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
 }
 .bg1 {
-  background-color: var(--py1);
+    background-color: var(--py1);
 }
 .bg2 {
-  background-color: var(--py2);
+    background-color: var(--py2);
 }
 .bg3 {
-  background-color: var(--py3);
+    background-color: var(--py3);
 }
 .db {
-  filter: drop-shadow(5px 5px 10px #000);
+    filter: drop-shadow(5px 5px 10px #000);
 }
 .text-blue {
-  color: var(--gradient1);
+    color: var(--gradient1);
 }
-
-
+.areaGame {
+    background-color: var(--py1);
+    color: var(--sy4);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    max-width: 430px;
+}
+.areaGame input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-bottom: 1px solid var(--gradient1);
+}
+#areaGamer {
+    max-width: 450px;
+}

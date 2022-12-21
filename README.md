@@ -14,30 +14,32 @@
 
 </div>
 
-# 📋 Portfolio PHP 
+# 📋 Portfolio PHP
 
 <!-- ![status-finalizado](https://user-images.githubusercontent.com/62897976/185768561-589083e1-f18f-480b-9709-0ca24acf9c6d.svg) -->
+
 ![status-em-andamento](https://user-images.githubusercontent.com/62897976/185768581-1d051a52-2e60-4378-b31d-39028cbfb5c8.svg)
 
 > Resumo do Projeto: Meu portfólio, onde basicamente tem os meus melhores trabalhos e informações reunidas em um só lugar.
 
 ## 🎯 Implementações/Features
 
-- [x] Começando estilização 
-- [x] Resolvendo Bugs
-- [x] Criada conexão com Banco de Dados
-- [x] Padronizando MVC
-- [x] Fazer script para mudar as cores
-- [ ] Criando a pagina Home
-  - [ ] Colocar jogo do desafio acerta numero na tela
-- [ ] Criando a pagina Projetos
-  - [ ] Criando Posts dinamicos com API github
-    - Usar ![Bootstrap and Masonry](https://getbootstrap.com/docs/5.2/examples/masonry/)
-    - https://medium.com/swlh/build-a-dynamic-portfolio-with-the-github-api-6d74081e5164
+-   [x] Começando estilização
+-   [x] Resolvendo Bugs
+-   [x] Criada conexão com Banco de Dados
+-   [x] Padronizando MVC
+-   [x] Fazer script para mudar as cores
+-   [ ] Criando a pagina Home
+    -   [ ] Colocar jogo do desafio acerta numero na tela
+-   [ ] Criando a pagina Projetos
 
-- [ ] Criando a pagina Sobre mim
-- [ ] 
-- [ ] Projeto Finalizado
+    -   [ ] Criando Posts dinâmicos com API github
+        -   Usar ![Bootstrap and Masonry](https://getbootstrap.com/docs/5.2/examples/masonry/)
+        -   https://medium.com/swlh/build-a-dynamic-portfolio-with-the-github-api-6d74081e5164
+
+-   [ ] Criando a pagina Sobre mim
+-   [ ]
+-   [ ] Projeto Finalizado
 
 ## 🤝 Colaboradores
 
@@ -62,11 +64,11 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
 **Font - Fira Code:**
 
-- https://fonts.google.com/specimen/Fira+Code?query=fir
+-   https://fonts.google.com/specimen/Fira+Code?query=fir
 
 **Icons - Remix Icon:**
 
-- https://remixicon.com/
+-   https://remixicon.com/
 
 https://getbootstrap.com/docs/5.2/examples/masonry/
 https://getbootstrap.com/docs/5.2/examples/jumbotron/
