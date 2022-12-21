@@ -31,7 +31,9 @@
 - [ ] Criando a pagina Home
   - [ ] Colocar jogo do desafio acerta numero na tela
 - [ ] Criando a pagina Projetos
-  - [ ] Criando 
+  - [ ] Criando Posts dinamicos com API github
+    - Usar ![Bootstrap and Masonry](https://getbootstrap.com/docs/5.2/examples/masonry/)
+    - https://medium.com/swlh/build-a-dynamic-portfolio-with-the-github-api-6d74081e5164
 
 - [ ] Criando a pagina Sobre mim
 - [ ] 
