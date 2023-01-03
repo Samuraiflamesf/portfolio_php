@@ -29,15 +29,14 @@
 -   [x] Criada conexão com Banco de Dados
 -   [x] Padronizando MVC
 -   [x] Fazer script para mudar as cores
--   [ ] Criando a pagina Home
-    -   [ ] Colocar jogo do desafio acerta numero na tela
+-   [x] Criando a pagina Home
+    -   [x] Colocar jogo na home
+-   [ ] Criando a pagina Sobre mim
 -   [ ] Criando a pagina Projetos
-
     -   [ ] Criando Posts dinâmicos com API github
         -   Usar ![Bootstrap and Masonry](https://getbootstrap.com/docs/5.2/examples/masonry/)
         -   https://medium.com/swlh/build-a-dynamic-portfolio-with-the-github-api-6d74081e5164
 
--   [ ] Criando a pagina Sobre mim
 -   [ ]
 -   [ ] Projeto Finalizado
 

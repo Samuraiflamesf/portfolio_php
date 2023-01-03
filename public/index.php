@@ -35,22 +35,22 @@ if (@$_GET['pag'] == "") {
     <!-- Styles Custom -->
     <link rel="stylesheet" href="../assets/css/styles.css">
     <link rel="stylesheet" href="../assets/css/roadmap.css">
-    <link rel="stylesheet" href="../assets/css/game.css">
     <!-- Font Awesome -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <!-- Ícone e Nome do site -->
     <link rel="shortcut icon" href="FlameBox.ico">
 </head>
 
-<body class="container-fluid p-0">
-    <header class="mb-auto ">
+<body>
+    <header class="mb-auto">
         <nav class="navbar navbar-expand-md navbar-dark bg2 p-0">
             <div class="container-fluid">
                 <a class="navbar-brand p-2 col order-first" href="https://bernardonogueira8.netlify.app/">
                     BernardoNogueira8
                 </a>
                 <!--Menu collaapse-->
-                <button class="navbar-toggler  colorder-last" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false">
+                <button class="navbar-toggler  colorder-last" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#menu" aria-controls="menu" aria-expanded="false">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -78,7 +78,7 @@ if (@$_GET['pag'] == "") {
         </nav>
     </header>
 
-    <div class="container-fluid" id="container">
+    <div class="container-fluid">
         <?php
         require_once('../view/' . $pag . '.php');
         ?>
@@ -88,51 +88,52 @@ if (@$_GET['pag'] == "") {
     if (@$_GET['pag'] == "projetos") {
         //Pag 2
     ?>
-        <script>
-            //Outros
-            document.querySelector('#menu1').classList.remove('border-2')
-            document.querySelector('#menu1').classList.remove('border-danger')
-            document.querySelector('#menu1 a').classList.remove('active')
-            document.querySelector('#menu3').classList.remove('border-2')
-            document.querySelector('#menu3').classList.remove('border-danger')
-            document.querySelector('#menu3 a').classList.remove('active')
-            //Selecionado
-            document.querySelector('#menu2').classList.remove('border-1')
-            document.querySelector('#menu2').classList.remove('border-white')
-            document.querySelector('#menu2').classList.add('border-2')
-            document.querySelector('#menu2').classList.add('border-danger')
-            document.querySelector('#menu2 a').classList.add('active')
-            console.log('feito');
-        </script>
+
+    <script>
+    //Outros
+    document.querySelector('#menu1').classList.remove('border-2')
+    document.querySelector('#menu1').classList.remove('border-danger')
+    document.querySelector('#menu1 a').classList.remove('active')
+    document.querySelector('#menu3').classList.remove('border-2')
+    document.querySelector('#menu3').classList.remove('border-danger')
+    document.querySelector('#menu3 a').classList.remove('active')
+    //Selecionado
+    document.querySelector('#menu2').classList.remove('border-1')
+    document.querySelector('#menu2').classList.remove('border-white')
+    document.querySelector('#menu2').classList.add('border-2')
+    document.querySelector('#menu2').classList.add('border-danger')
+    document.querySelector('#menu2 a').classList.add('active')
+    console.log('feito');
+    </script>
     <?php
     } ?>
     <?php
     if (@$_GET['pag'] == "sobre") {
         //Pag 2
     ?>
-        <script>
-            //Outros
-            document.querySelector('#menu1').classList.remove('border-2')
-            document.querySelector('#menu1').classList.remove('border-danger')
-            document.querySelector('#menu1 a').classList.remove('active')
-            document.querySelector('#menu2').classList.remove('border-2')
-            document.querySelector('#menu2').classList.remove('border-danger')
-            document.querySelector('#menu2 a').classList.remove('active')
-            //Selecionado
-            document.querySelector('#menu3').classList.remove('border-1')
-            document.querySelector('#menu3').classList.remove('border-white')
-            document.querySelector('#menu3').classList.add('border-2')
-            document.querySelector('#menu3').classList.add('border-danger')
-            document.querySelector('#menu3 a').classList.add('active')
-            console.log('feito');
-        </script>
+    <script>
+    //Outros
+    document.querySelector('#menu1').classList.remove('border-2')
+    document.querySelector('#menu1').classList.remove('border-danger')
+    document.querySelector('#menu1 a').classList.remove('active')
+    document.querySelector('#menu2').classList.remove('border-2')
+    document.querySelector('#menu2').classList.remove('border-danger')
+    document.querySelector('#menu2 a').classList.remove('active')
+    //Selecionado
+    document.querySelector('#menu3').classList.remove('border-1')
+    document.querySelector('#menu3').classList.remove('border-white')
+    document.querySelector('#menu3').classList.add('border-2')
+    document.querySelector('#menu3').classList.add('border-danger')
+    document.querySelector('#menu3 a').classList.add('active')
+    console.log('feito');
+    </script>
     <?php
     } ?>
 
 
 
     <!-- Rodapé -->
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 m-0 border-top bg2 fixed-bottom">
+    <footer class=" d-flex flex-wrap justify-content-between align-items-center py-3 m-0 border-top bg2 fixed-bottom">
         <div class="col d-flex align-items-center">
             <span class=" ms-4 text-muted">© 2022 Bernardo Nogueira</span>
         </div>
