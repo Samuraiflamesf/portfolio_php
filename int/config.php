@@ -8,5 +8,7 @@ $servidor = 'localhost';
 $user = 'root';
 $password = '';
 $banco = 'portfolio';
+$nome_admin = 'Bernardo Nogueira';
+$email_admin = 'samuraiflamesf@gmail.com';
 
 ?>
