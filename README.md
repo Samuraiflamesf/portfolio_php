@@ -4,9 +4,7 @@
 
 </div>
 
-![Video-Aplicação](https://user-images.githubusercontent.com/62897976/185768202-9e2fda79-b014-4d99-a10e-1f0852a981a1.gif)
 
-<img src="./src/Assets/gif.gif" alt="Descrição da imagem">
 
 <div align="center">
 
@@ -31,11 +29,15 @@
 -   [x] Fazer script para mudar as cores
 -   [x] Criando a pagina Home
     -   [x] Colocar jogo na home
+-   [x] Composer entrou na minha vida
+    -   [x] Reformulando projeto
+    -   [x] Implementação do COMPOSER EM MINHA VIDA _Completo_
+
 -   [ ] Criando a pagina Sobre mim
 -   [ ] Criando a pagina Projetos
-    -   [ ] Criando Posts dinâmicos com API github
-        -   Usar ![Bootstrap and Masonry](https://getbootstrap.com/docs/5.2/examples/masonry/)
-        -   https://medium.com/swlh/build-a-dynamic-portfolio-with-the-github-api-6d74081e5164
+-   [ ] Criando Posts dinâmicos com API github
+    -  Usar ![Bootstrap and Masonry](https://getbootstrap.com/docs/5.2/examples/masonry/)
+    -  https://medium.com/swlh/build-a-dynamic-portfolio-with-the-github-api-6d74081e5164
 
 -   [ ]
 -   [ ] Projeto Finalizado

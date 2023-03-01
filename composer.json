@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "files": [
+            "app/framework/database/connection.php",
+            "app/framework/classes/custom.php",
+            "app/framework/classes/pages.php",
+            "app/framework/classes/validade.php"
+        ]
+    }
+}

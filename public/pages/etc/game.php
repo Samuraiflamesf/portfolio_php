@@ -1,3 +1,11 @@
+<div class="row m-auto" style="max-width: 770px;">
+    <div class="alert alert-primary mt-2 d-none" role="alert" id="alertSmall">
+        👀 O número para ser encontrado é MENOR 😰
+    </div>
+    <div class="alert alert-primary mt-2 d-none" role="alert" id="alertBig">
+        👀 O número para ser encontrado é MAIOR 😨
+    </div>
+</div>
 <div class="m-auto" id="areaGame">
     <div class="row m-auto" style="max-width: 770px;">
         <div class="alert alert-danger d-none" role="alert" id="alertErro">
@@ -23,12 +31,3 @@
         </div>
     </div>
 </div>
-<div class="row m-auto" style="max-width: 770px;">
-    <div class="alert alert-primary mt-2 d-none" role="alert" id="alertSmall">
-        👀 O número para ser encontrado é MENOR 😰
-    </div>
-    <div class="alert alert-primary mt-2 d-none" role="alert" id="alertBig">
-        👀 O número para ser encontrado é MAIOR 😨
-    </div>
-</div>
-<script src="../assets/js/game.js"></script>
