@@ -15,8 +15,11 @@
     --lines: #0a0a0a;
     --gradient1: #4d5bce;
     --gradient2: #43d9ad;
+    --text-color: #fea55f;
+    --profile-width: 300px;
+    --profile-height: 95vh;
+    --repositories-magin-left: calc(var(--profile-width) + 15px);
 }
-
 * {
     font-family: fireCodeRegular;
 }

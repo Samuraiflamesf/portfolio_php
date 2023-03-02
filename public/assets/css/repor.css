@@ -1,0 +1,86 @@
+:root{
+    --text-color: #fff;
+    --profile-width: 300px;
+    --profile-height: 95vh;
+    --repositories-magin-left: calc(var(--profile-width) + 15px);
+}
+.infoContainer{
+    width: 100%;
+}
+
+.profileInfo{
+    text-align: center;
+}
+
+.profilePic{
+    max-width: 500px;
+    height: 100px;
+
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.profileUser{
+    font-size: 4ex;
+    margin: 0;
+}
+
+.profileBio{
+    margin-top: 7;
+    
+    font-size: 2.5ex;
+}
+
+a:link{ 
+    text-decoration:none; 
+} 
+
+.divRepo{
+    margin-bottom: 20px;
+    padding-left: 15px;
+
+    background-color: black;
+    opacity: 0.7;
+
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+    /* position: relative; */
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column
+}
+
+.divRepo:hover {
+    opacity: 1.0;
+    transition: 0.5s;
+    transform: scale(1.01);
+}
+
+.divRepo i{
+    color: var(--text-color) !important;
+}
+
+.divRepo h3{
+    color: var(--text-color) !important;
+
+    margin-bottom: 3px;
+}
+
+.divRepo p{
+    display: block;
+    color: var(--text-color) !important;
+    
+    margin-top: 0;
+    padding-bottom: 15px;
+}
+
+.infoDiv div{
+    color: var(--text-color) !important;
+
+    display: inline-block;
+    margin-right: 15px;
+}
+

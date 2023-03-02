@@ -35,7 +35,7 @@
 </header>
 <div class="container d-flex justify-content-center" id="box">
     <div class="row align-items-center">
-        <div class=" col-lg-7 text-center">
+        <div class=" col-lg-7 text-center p-4 m-auto">
             <h5 class="text-light">
                 Olá a todos, Eu sou</h5>
             <h1 class="display-5 lh-1 mb-3 text-light db">
@@ -45,13 +45,13 @@
                 > Analista Desenvolvedor PHP Jr <br>
                 > Analista Requisitos
             </h4>
-            <div class="col-lg-8 mx-auto">
+            <div class="col-lg mx-auto">
 
                 <div class=" d-grid gap-2 d-sm-flex justify-content-sm-center ">
                     <a type="button" class="btn btn-primary btn-lg px-4 me-md-2" href="?page=projects">
                         _projetos
                     </a>
-                    
+
                     <a type="button" class="btn btn-dark btn-lg px-4 me-md-2" href="?page=about">
                         _sobre-mim
                     </a>

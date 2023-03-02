@@ -11,7 +11,7 @@
 
             <div class="collapse navbar-collapse p-0" id="menu">
                 <ul class="navbar-nav me-auto mb-lg-0 p-0 ">
-                    <li class="nav-item border-bottom p-2 border-2 border-white" id="menu1">
+                    <li class="nav-item border-bottom p-2 border-1 border-white" id="menu1">
                         <a class="nav-link" aria-current="page" href="?page=home">
                             _Olá
                         </a>
@@ -22,7 +22,7 @@
 
                         </a>
                     </li>
-                    <li class="nav-item border-bottom p-2 border-1 border-danger " id="menu3">
+                    <li class="nav-item border-bottom p-2 border-2 border-danger " id="menu3">
                         <a class="nav-link active" href="?page=about">
                             _sobre-mim
                         </a>
@@ -35,37 +35,33 @@
 </header>
 <div class="container">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm col-lg-6">
-            <img src="../assets/img/Fotodoperfil.jpg" class="d-block mx-auto img-fluid" alt="Foto de Perfil">
+        <div class="infoContainer">
+            <div class="profileInfo" id="info"></div>
         </div>
-        <div class="col-lg-6">
-            <h1 class="display-5 lh-1 mb-3 text-light text-md text-center">
-                Bernardo Nogueira da Silva
-            </h1>
-            <p class="lead">
-                Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular
-                front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive
-                prebuilt components, and powerful JavaScript plugins.
-            </p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
-                    Download CV
-                </button>
-                <button type="button" class="btn btn-outline-secondary btn-lg px-4">
-                    Entrar em contato
-                </button>
-            </div>
+        <div class="d-grid gap-2 row">
+            <button type="button" 
+            class="btn btn-primary btn-lg px-4 col">
+                Download CV
+            </button>
+            <button type="button" 
+            class="btn btn-outline-secondary btn-lg px-4 col">
+                Entrar em contato
+            </button>
         </div>
     </div>
+</div>
 
-    <?php
-    require_once('../public/pages/etc/skills.php');
-    ?>
-    <?php
-    require_once('../public/pages/etc/roadmap.php');
-    ?>
+<?php
+require_once('../public/pages/etc/skills.php');
+?>
+<?php
+require_once('../public/pages/etc/roadmap.php');
+?>
 </div>
 
 <?php
 require_once('../public/pages/etc/footer.php');
 ?>
+<script src="../public/assets/js/jquery.min.js"></script>
+<script src="../public/assets/js/axios.min.js"></script>
+<script src="../public/assets/js/main.js"></script>
