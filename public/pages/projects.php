@@ -34,13 +34,9 @@
     </nav>
 </header>
 
-<div class="repoContainer">
+<div class="repoContainer container">
     <div class="repos" id="repos"></div>
 </div>
-
-
-
-
 
 
 <?php
